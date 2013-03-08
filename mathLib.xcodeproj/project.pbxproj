@@ -117,6 +117,138 @@
 		B55AC2B116E9EA2800EF8E7E /* forge_precompiled_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC29B16E9EA2800EF8E7E /* forge_precompiled_win.cpp */; };
 		B55AC2B216E9EA2800EF8E7E /* forge_precompiled_win.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29C16E9EA2800EF8E7E /* forge_precompiled_win.h */; };
 		B55AC2B316E9EA2800EF8E7E /* forge_targetver.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29D16E9EA2800EF8E7E /* forge_targetver.h */; };
+		B55AC35116E9FF1300EF8E7E /* ftl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34516E9FF1300EF8E7E /* ftl_common.h */; };
+		B55AC35216E9FF1300EF8E7E /* ftl_common_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34616E9FF1300EF8E7E /* ftl_common_inl.h */; };
+		B55AC35316E9FF1300EF8E7E /* ftl_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34716E9FF1300EF8E7E /* ftl_defs.h */; };
+		B55AC35416E9FF1300EF8E7E /* ftl_defs_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34816E9FF1300EF8E7E /* ftl_defs_inl.h */; };
+		B55AC35516E9FF1300EF8E7E /* reflect.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34916E9FF1300EF8E7E /* reflect.h */; };
+		B55AC35616E9FF1300EF8E7E /* stb.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34A16E9FF1300EF8E7E /* stb.h */; };
+		B55AC35716E9FF1300EF8E7E /* ftl_common_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC34C16E9FF1300EF8E7E /* ftl_common_ios.cpp */; };
+		B55AC35816E9FF1300EF8E7E /* ftl_common_osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC34E16E9FF1300EF8E7E /* ftl_common_osx.cpp */; };
+		B55AC35916E9FF1300EF8E7E /* ftl_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC35016E9FF1300EF8E7E /* ftl_common.cpp */; };
+		B55AC36816EA011300EF8E7E /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC36616EA011300EF8E7E /* random.h */; };
+		B55AC36916EA011300EF8E7E /* random_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC36716EA011300EF8E7E /* random_inl.h */; };
+		B55AC38116EA1B1800EF8E7E /* complexd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FA16E9E98500EF8E7E /* complexd.cpp */; };
+		B55AC38216EA1B1800EF8E7E /* complexf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FB16E9E98500EF8E7E /* complexf.cpp */; };
+		B55AC38316EA1B1800EF8E7E /* complexh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FC16E9E98500EF8E7E /* complexh.cpp */; };
+		B55AC38416EA1B1800EF8E7E /* geometryd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FD16E9E98500EF8E7E /* geometryd.cpp */; };
+		B55AC38516EA1B1800EF8E7E /* geometryf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FE16E9E98500EF8E7E /* geometryf.cpp */; };
+		B55AC38616EA1B1800EF8E7E /* intersectd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC1FF16E9E98500EF8E7E /* intersectd.cpp */; };
+		B55AC38716EA1B1800EF8E7E /* intersectf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20016E9E98500EF8E7E /* intersectf.cpp */; };
+		B55AC38816EA1B1800EF8E7E /* mat22d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20116E9E98500EF8E7E /* mat22d.cpp */; };
+		B55AC38916EA1B1800EF8E7E /* mat22f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20216E9E98500EF8E7E /* mat22f.cpp */; };
+		B55AC38A16EA1B1800EF8E7E /* mat22h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20316E9E98500EF8E7E /* mat22h.cpp */; };
+		B55AC38B16EA1B1800EF8E7E /* mat33d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20416E9E98500EF8E7E /* mat33d.cpp */; };
+		B55AC38C16EA1B1800EF8E7E /* mat33f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20516E9E98500EF8E7E /* mat33f.cpp */; };
+		B55AC38D16EA1B1800EF8E7E /* mat33h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20616E9E98500EF8E7E /* mat33h.cpp */; };
+		B55AC38E16EA1B1800EF8E7E /* mat43d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20716E9E98500EF8E7E /* mat43d.cpp */; };
+		B55AC38F16EA1B1800EF8E7E /* mat43f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20816E9E98500EF8E7E /* mat43f.cpp */; };
+		B55AC39016EA1B1800EF8E7E /* mat43h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20916E9E98500EF8E7E /* mat43h.cpp */; };
+		B55AC39116EA1B1800EF8E7E /* mat44d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20A16E9E98500EF8E7E /* mat44d.cpp */; };
+		B55AC39216EA1B1800EF8E7E /* mat44f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20B16E9E98500EF8E7E /* mat44f.cpp */; };
+		B55AC39316EA1B1800EF8E7E /* mat44h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20C16E9E98500EF8E7E /* mat44h.cpp */; };
+		B55AC39416EA1B1800EF8E7E /* mathd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20D16E9E98500EF8E7E /* mathd.cpp */; };
+		B55AC39516EA1B1800EF8E7E /* mathf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20E16E9E98500EF8E7E /* mathf.cpp */; };
+		B55AC39616EA1B1800EF8E7E /* merged.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC20F16E9E98500EF8E7E /* merged.cpp */; };
+		B55AC39716EA1B1800EF8E7E /* mergef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21016E9E98500EF8E7E /* mergef.cpp */; };
+		B55AC39816EA1B1800EF8E7E /* quatd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21116E9E98500EF8E7E /* quatd.cpp */; };
+		B55AC39916EA1B1800EF8E7E /* quatf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21216E9E98500EF8E7E /* quatf.cpp */; };
+		B55AC39A16EA1B1800EF8E7E /* quath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21316E9E98500EF8E7E /* quath.cpp */; };
+		B55AC39B16EA1B1800EF8E7E /* transform2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21416E9E98500EF8E7E /* transform2d.cpp */; };
+		B55AC39C16EA1B1800EF8E7E /* transform2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21516E9E98500EF8E7E /* transform2f.cpp */; };
+		B55AC39D16EA1B1800EF8E7E /* transform3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21616E9E98500EF8E7E /* transform3d.cpp */; };
+		B55AC39E16EA1B1800EF8E7E /* transform3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21716E9E98500EF8E7E /* transform3f.cpp */; };
+		B55AC39F16EA1B1800EF8E7E /* unitransform3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21816E9E98500EF8E7E /* unitransform3d.cpp */; };
+		B55AC3A016EA1B1800EF8E7E /* unitransform3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21916E9E98500EF8E7E /* unitransform3f.cpp */; };
+		B55AC3A116EA1B1800EF8E7E /* vec2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21A16E9E98500EF8E7E /* vec2d.cpp */; };
+		B55AC3A216EA1B1800EF8E7E /* vec2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21B16E9E98500EF8E7E /* vec2f.cpp */; };
+		B55AC3A316EA1B1800EF8E7E /* vec2h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21C16E9E98500EF8E7E /* vec2h.cpp */; };
+		B55AC3A416EA1B1800EF8E7E /* vec3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21D16E9E98500EF8E7E /* vec3d.cpp */; };
+		B55AC3A516EA1B1800EF8E7E /* vec3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21E16E9E98500EF8E7E /* vec3f.cpp */; };
+		B55AC3A616EA1B1800EF8E7E /* vec3h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC21F16E9E98500EF8E7E /* vec3h.cpp */; };
+		B55AC3A716EA1B1800EF8E7E /* vec4d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC22016E9E98500EF8E7E /* vec4d.cpp */; };
+		B55AC3A816EA1B1800EF8E7E /* vec4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC22116E9E98500EF8E7E /* vec4f.cpp */; };
+		B55AC3A916EA1B1800EF8E7E /* vec4h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC22216E9E98500EF8E7E /* vec4h.cpp */; };
+		B55AC3AA16EA1B1800EF8E7E /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC28F16E9EA2800EF8E7E /* version.cpp */; };
+		B55AC3AB16EA1B1800EF8E7E /* forge_precompiled_ps3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC29516E9EA2800EF8E7E /* forge_precompiled_ps3.cpp */; };
+		B55AC3AC16EA1B1800EF8E7E /* forge_precompiled_psvita.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC29816E9EA2800EF8E7E /* forge_precompiled_psvita.cpp */; };
+		B55AC3AD16EA1B1800EF8E7E /* forge_precompiled_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC29B16E9EA2800EF8E7E /* forge_precompiled_win.cpp */; };
+		B55AC3AE16EA1B1800EF8E7E /* ftl_common_ios.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC34C16E9FF1300EF8E7E /* ftl_common_ios.cpp */; };
+		B55AC3AF16EA1B1800EF8E7E /* ftl_common_osx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC34E16E9FF1300EF8E7E /* ftl_common_osx.cpp */; };
+		B55AC3B016EA1B1800EF8E7E /* ftl_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B55AC35016E9FF1300EF8E7E /* ftl_common.cpp */; };
+		B55AC3B316EA1B1800EF8E7E /* complexd.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CA16E9E98500EF8E7E /* complexd.h */; };
+		B55AC3B416EA1B1800EF8E7E /* complexf.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CB16E9E98500EF8E7E /* complexf.h */; };
+		B55AC3B516EA1B1800EF8E7E /* complexh.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CC16E9E98500EF8E7E /* complexh.h */; };
+		B55AC3B616EA1B1800EF8E7E /* geometryd.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CD16E9E98500EF8E7E /* geometryd.h */; };
+		B55AC3B716EA1B1800EF8E7E /* geometryf.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CE16E9E98500EF8E7E /* geometryf.h */; };
+		B55AC3B816EA1B1800EF8E7E /* halffloat.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1CF16E9E98500EF8E7E /* halffloat.h */; };
+		B55AC3B916EA1B1800EF8E7E /* halffloat_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D016E9E98500EF8E7E /* halffloat_inl.h */; };
+		B55AC3BA16EA1B1800EF8E7E /* intersectd.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D116E9E98500EF8E7E /* intersectd.h */; };
+		B55AC3BB16EA1B1800EF8E7E /* intersectf.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D216E9E98500EF8E7E /* intersectf.h */; };
+		B55AC3BC16EA1B1800EF8E7E /* mat22d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D316E9E98500EF8E7E /* mat22d.h */; };
+		B55AC3BD16EA1B1800EF8E7E /* mat22f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D416E9E98500EF8E7E /* mat22f.h */; };
+		B55AC3BE16EA1B1800EF8E7E /* mat22h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D516E9E98500EF8E7E /* mat22h.h */; };
+		B55AC3BF16EA1B1800EF8E7E /* mat33d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D616E9E98500EF8E7E /* mat33d.h */; };
+		B55AC3C016EA1B1800EF8E7E /* mat33f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D716E9E98500EF8E7E /* mat33f.h */; };
+		B55AC3C116EA1B1800EF8E7E /* mat33h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D816E9E98500EF8E7E /* mat33h.h */; };
+		B55AC3C216EA1B1800EF8E7E /* mat43d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1D916E9E98500EF8E7E /* mat43d.h */; };
+		B55AC3C316EA1B1800EF8E7E /* mat43f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DA16E9E98500EF8E7E /* mat43f.h */; };
+		B55AC3C416EA1B1800EF8E7E /* mat43h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DB16E9E98500EF8E7E /* mat43h.h */; };
+		B55AC3C516EA1B1800EF8E7E /* mat44d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DC16E9E98500EF8E7E /* mat44d.h */; };
+		B55AC3C616EA1B1800EF8E7E /* mat44f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DD16E9E98500EF8E7E /* mat44f.h */; };
+		B55AC3C716EA1B1800EF8E7E /* mat44h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DE16E9E98500EF8E7E /* mat44h.h */; };
+		B55AC3C816EA1B1800EF8E7E /* math_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1DF16E9E98500EF8E7E /* math_defs.h */; };
+		B55AC3C916EA1B1800EF8E7E /* mathd.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E016E9E98500EF8E7E /* mathd.h */; };
+		B55AC3CA16EA1B1800EF8E7E /* mathf.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E116E9E98500EF8E7E /* mathf.h */; };
+		B55AC3CB16EA1B1800EF8E7E /* merged.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E216E9E98500EF8E7E /* merged.h */; };
+		B55AC3CC16EA1B1800EF8E7E /* mergef.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E316E9E98500EF8E7E /* mergef.h */; };
+		B55AC3CD16EA1B1800EF8E7E /* quatd.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E416E9E98500EF8E7E /* quatd.h */; };
+		B55AC3CE16EA1B1800EF8E7E /* quatf.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E516E9E98500EF8E7E /* quatf.h */; };
+		B55AC3CF16EA1B1800EF8E7E /* quath.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E616E9E98500EF8E7E /* quath.h */; };
+		B55AC3D016EA1B1800EF8E7E /* random_math.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E716E9E98500EF8E7E /* random_math.h */; };
+		B55AC3D116EA1B1800EF8E7E /* random_math_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E816E9E98500EF8E7E /* random_math_inl.h */; };
+		B55AC3D216EA1B1800EF8E7E /* simd_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1E916E9E98500EF8E7E /* simd_defs.h */; };
+		B55AC3D316EA1B1800EF8E7E /* transform2d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1EA16E9E98500EF8E7E /* transform2d.h */; };
+		B55AC3D416EA1B1800EF8E7E /* transform2f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1EB16E9E98500EF8E7E /* transform2f.h */; };
+		B55AC3D516EA1B1800EF8E7E /* transform3d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1EC16E9E98500EF8E7E /* transform3d.h */; };
+		B55AC3D616EA1B1800EF8E7E /* transform3f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1ED16E9E98500EF8E7E /* transform3f.h */; };
+		B55AC3D716EA1B1800EF8E7E /* unitransform3d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1EE16E9E98500EF8E7E /* unitransform3d.h */; };
+		B55AC3D816EA1B1800EF8E7E /* unitransform3f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1EF16E9E98500EF8E7E /* unitransform3f.h */; };
+		B55AC3D916EA1B1800EF8E7E /* vec2d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F016E9E98500EF8E7E /* vec2d.h */; };
+		B55AC3DA16EA1B1800EF8E7E /* vec2f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F116E9E98500EF8E7E /* vec2f.h */; };
+		B55AC3DB16EA1B1800EF8E7E /* vec2h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F216E9E98500EF8E7E /* vec2h.h */; };
+		B55AC3DC16EA1B1800EF8E7E /* vec3d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F316E9E98500EF8E7E /* vec3d.h */; };
+		B55AC3DD16EA1B1800EF8E7E /* vec3f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F416E9E98500EF8E7E /* vec3f.h */; };
+		B55AC3DE16EA1B1800EF8E7E /* vec3h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F516E9E98500EF8E7E /* vec3h.h */; };
+		B55AC3DF16EA1B1800EF8E7E /* vec4d.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F616E9E98500EF8E7E /* vec4d.h */; };
+		B55AC3E016EA1B1800EF8E7E /* vec4f.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F716E9E98500EF8E7E /* vec4f.h */; };
+		B55AC3E116EA1B1800EF8E7E /* vec4h.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC1F816E9E98500EF8E7E /* vec4h.h */; };
+		B55AC3E216EA1B1800EF8E7E /* base_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28216E9EA2800EF8E7E /* base_defs.h */; };
+		B55AC3E316EA1B1800EF8E7E /* common_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28316E9EA2800EF8E7E /* common_defs.h */; };
+		B55AC3E416EA1B1800EF8E7E /* compiler_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28416E9EA2800EF8E7E /* compiler_defs.h */; };
+		B55AC3E516EA1B1800EF8E7E /* error_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28516E9EA2800EF8E7E /* error_defs.h */; };
+		B55AC3E616EA1B1800EF8E7E /* forge_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28616E9EA2800EF8E7E /* forge_defs.h */; };
+		B55AC3E716EA1B1800EF8E7E /* int_type_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28716E9EA2800EF8E7E /* int_type_defs.h */; };
+		B55AC3E816EA1B1800EF8E7E /* namespace_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28816E9EA2800EF8E7E /* namespace_defs.h */; };
+		B55AC3E916EA1B1800EF8E7E /* platform_header_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28916E9EA2800EF8E7E /* platform_header_defs.h */; };
+		B55AC3EA16EA1B1800EF8E7E /* string_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28A16E9EA2800EF8E7E /* string_defs.h */; };
+		B55AC3EB16EA1B1800EF8E7E /* user_configurable_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28B16E9EA2800EF8E7E /* user_configurable_defs.h */; };
+		B55AC3EC16EA1B1800EF8E7E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28C16E9EA2800EF8E7E /* version.h */; };
+		B55AC3ED16EA1B1800EF8E7E /* windows_headers.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC28D16E9EA2800EF8E7E /* windows_headers.h */; };
+		B55AC3EE16EA1B1800EF8E7E /* forge_precompiled_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29116E9EA2800EF8E7E /* forge_precompiled_ios.h */; };
+		B55AC3EF16EA1B1800EF8E7E /* forge_precompiled_osx.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29316E9EA2800EF8E7E /* forge_precompiled_osx.h */; };
+		B55AC3F016EA1B1800EF8E7E /* forge_precompiled_ps3.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29616E9EA2800EF8E7E /* forge_precompiled_ps3.h */; };
+		B55AC3F116EA1B1800EF8E7E /* forge_precompiled_psvita.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29916E9EA2800EF8E7E /* forge_precompiled_psvita.h */; };
+		B55AC3F216EA1B1800EF8E7E /* forge_precompiled_win.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29C16E9EA2800EF8E7E /* forge_precompiled_win.h */; };
+		B55AC3F316EA1B1800EF8E7E /* forge_targetver.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC29D16E9EA2800EF8E7E /* forge_targetver.h */; };
+		B55AC3F416EA1B1800EF8E7E /* ftl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34516E9FF1300EF8E7E /* ftl_common.h */; };
+		B55AC3F516EA1B1800EF8E7E /* ftl_common_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34616E9FF1300EF8E7E /* ftl_common_inl.h */; };
+		B55AC3F616EA1B1800EF8E7E /* ftl_defs.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34716E9FF1300EF8E7E /* ftl_defs.h */; };
+		B55AC3F716EA1B1800EF8E7E /* ftl_defs_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34816E9FF1300EF8E7E /* ftl_defs_inl.h */; };
+		B55AC3F816EA1B1800EF8E7E /* reflect.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34916E9FF1300EF8E7E /* reflect.h */; };
+		B55AC3F916EA1B1800EF8E7E /* stb.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC34A16E9FF1300EF8E7E /* stb.h */; };
+		B55AC3FA16EA1B1800EF8E7E /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC36616EA011300EF8E7E /* random.h */; };
+		B55AC3FB16EA1B1800EF8E7E /* random_inl.h in Headers */ = {isa = PBXBuildFile; fileRef = B55AC36716EA011300EF8E7E /* random_inl.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -231,10 +363,29 @@
 		B55AC29B16E9EA2800EF8E7E /* forge_precompiled_win.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forge_precompiled_win.cpp; sourceTree = "<group>"; };
 		B55AC29C16E9EA2800EF8E7E /* forge_precompiled_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forge_precompiled_win.h; sourceTree = "<group>"; };
 		B55AC29D16E9EA2800EF8E7E /* forge_targetver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forge_targetver.h; sourceTree = "<group>"; };
+		B55AC34516E9FF1300EF8E7E /* ftl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl_common.h; sourceTree = "<group>"; };
+		B55AC34616E9FF1300EF8E7E /* ftl_common_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl_common_inl.h; sourceTree = "<group>"; };
+		B55AC34716E9FF1300EF8E7E /* ftl_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl_defs.h; sourceTree = "<group>"; };
+		B55AC34816E9FF1300EF8E7E /* ftl_defs_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftl_defs_inl.h; sourceTree = "<group>"; };
+		B55AC34916E9FF1300EF8E7E /* reflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reflect.h; sourceTree = "<group>"; };
+		B55AC34A16E9FF1300EF8E7E /* stb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb.h; sourceTree = "<group>"; };
+		B55AC34C16E9FF1300EF8E7E /* ftl_common_ios.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftl_common_ios.cpp; sourceTree = "<group>"; };
+		B55AC34E16E9FF1300EF8E7E /* ftl_common_osx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftl_common_osx.cpp; sourceTree = "<group>"; };
+		B55AC35016E9FF1300EF8E7E /* ftl_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftl_common.cpp; sourceTree = "<group>"; };
+		B55AC36616EA011300EF8E7E /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		B55AC36716EA011300EF8E7E /* random_inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_inl.h; sourceTree = "<group>"; };
+		B55AC3FF16EA1B1800EF8E7E /* libmathLibNoSimd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmathLibNoSimd.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B55AC1BC16E9E5F400EF8E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AC3B116EA1B1800EF8E7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,6 +398,8 @@
 		B55AC1B616E9E5F400EF8E7E = {
 			isa = PBXGroup;
 			children = (
+				B55AC36316EA011300EF8E7E /* algorithm */,
+				B55AC34216E9FF1300EF8E7E /* ftl */,
 				B55AC27F16E9EA2800EF8E7E /* base */,
 				B55AC1C616E9E98500EF8E7E /* math */,
 				B55AC1C016E9E5F400EF8E7E /* Products */,
@@ -257,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				B55AC1BF16E9E5F400EF8E7E /* libmathLib.a */,
+				B55AC3FF16EA1B1800EF8E7E /* libmathLibNoSimd.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -507,6 +661,89 @@
 			path = src_win;
 			sourceTree = "<group>";
 		};
+		B55AC34216E9FF1300EF8E7E /* ftl */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC34316E9FF1300EF8E7E /* include */,
+				B55AC34B16E9FF1300EF8E7E /* src_ios */,
+				B55AC34D16E9FF1300EF8E7E /* src_osx */,
+				B55AC34F16E9FF1300EF8E7E /* src_win */,
+			);
+			name = ftl;
+			path = modules/ftl;
+			sourceTree = "<group>";
+		};
+		B55AC34316E9FF1300EF8E7E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC34416E9FF1300EF8E7E /* fdk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B55AC34416E9FF1300EF8E7E /* fdk */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC34516E9FF1300EF8E7E /* ftl_common.h */,
+				B55AC34616E9FF1300EF8E7E /* ftl_common_inl.h */,
+				B55AC34716E9FF1300EF8E7E /* ftl_defs.h */,
+				B55AC34816E9FF1300EF8E7E /* ftl_defs_inl.h */,
+				B55AC34916E9FF1300EF8E7E /* reflect.h */,
+				B55AC34A16E9FF1300EF8E7E /* stb.h */,
+			);
+			path = fdk;
+			sourceTree = "<group>";
+		};
+		B55AC34B16E9FF1300EF8E7E /* src_ios */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC34C16E9FF1300EF8E7E /* ftl_common_ios.cpp */,
+			);
+			path = src_ios;
+			sourceTree = "<group>";
+		};
+		B55AC34D16E9FF1300EF8E7E /* src_osx */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC34E16E9FF1300EF8E7E /* ftl_common_osx.cpp */,
+			);
+			path = src_osx;
+			sourceTree = "<group>";
+		};
+		B55AC34F16E9FF1300EF8E7E /* src_win */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC35016E9FF1300EF8E7E /* ftl_common.cpp */,
+			);
+			path = src_win;
+			sourceTree = "<group>";
+		};
+		B55AC36316EA011300EF8E7E /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC36416EA011300EF8E7E /* include */,
+			);
+			name = algorithm;
+			path = modules/algorithm;
+			sourceTree = "<group>";
+		};
+		B55AC36416EA011300EF8E7E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC36516EA011300EF8E7E /* fdk */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B55AC36516EA011300EF8E7E /* fdk */ = {
+			isa = PBXGroup;
+			children = (
+				B55AC36616EA011300EF8E7E /* random.h */,
+				B55AC36716EA011300EF8E7E /* random_inl.h */,
+			);
+			path = fdk;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -579,6 +816,94 @@
 				B55AC2B016E9EA2800EF8E7E /* forge_precompiled_psvita.h in Headers */,
 				B55AC2B216E9EA2800EF8E7E /* forge_precompiled_win.h in Headers */,
 				B55AC2B316E9EA2800EF8E7E /* forge_targetver.h in Headers */,
+				B55AC35116E9FF1300EF8E7E /* ftl_common.h in Headers */,
+				B55AC35216E9FF1300EF8E7E /* ftl_common_inl.h in Headers */,
+				B55AC35316E9FF1300EF8E7E /* ftl_defs.h in Headers */,
+				B55AC35416E9FF1300EF8E7E /* ftl_defs_inl.h in Headers */,
+				B55AC35516E9FF1300EF8E7E /* reflect.h in Headers */,
+				B55AC35616E9FF1300EF8E7E /* stb.h in Headers */,
+				B55AC36816EA011300EF8E7E /* random.h in Headers */,
+				B55AC36916EA011300EF8E7E /* random_inl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AC3B216EA1B1800EF8E7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AC3B316EA1B1800EF8E7E /* complexd.h in Headers */,
+				B55AC3B416EA1B1800EF8E7E /* complexf.h in Headers */,
+				B55AC3B516EA1B1800EF8E7E /* complexh.h in Headers */,
+				B55AC3B616EA1B1800EF8E7E /* geometryd.h in Headers */,
+				B55AC3B716EA1B1800EF8E7E /* geometryf.h in Headers */,
+				B55AC3B816EA1B1800EF8E7E /* halffloat.h in Headers */,
+				B55AC3B916EA1B1800EF8E7E /* halffloat_inl.h in Headers */,
+				B55AC3BA16EA1B1800EF8E7E /* intersectd.h in Headers */,
+				B55AC3BB16EA1B1800EF8E7E /* intersectf.h in Headers */,
+				B55AC3BC16EA1B1800EF8E7E /* mat22d.h in Headers */,
+				B55AC3BD16EA1B1800EF8E7E /* mat22f.h in Headers */,
+				B55AC3BE16EA1B1800EF8E7E /* mat22h.h in Headers */,
+				B55AC3BF16EA1B1800EF8E7E /* mat33d.h in Headers */,
+				B55AC3C016EA1B1800EF8E7E /* mat33f.h in Headers */,
+				B55AC3C116EA1B1800EF8E7E /* mat33h.h in Headers */,
+				B55AC3C216EA1B1800EF8E7E /* mat43d.h in Headers */,
+				B55AC3C316EA1B1800EF8E7E /* mat43f.h in Headers */,
+				B55AC3C416EA1B1800EF8E7E /* mat43h.h in Headers */,
+				B55AC3C516EA1B1800EF8E7E /* mat44d.h in Headers */,
+				B55AC3C616EA1B1800EF8E7E /* mat44f.h in Headers */,
+				B55AC3C716EA1B1800EF8E7E /* mat44h.h in Headers */,
+				B55AC3C816EA1B1800EF8E7E /* math_defs.h in Headers */,
+				B55AC3C916EA1B1800EF8E7E /* mathd.h in Headers */,
+				B55AC3CA16EA1B1800EF8E7E /* mathf.h in Headers */,
+				B55AC3CB16EA1B1800EF8E7E /* merged.h in Headers */,
+				B55AC3CC16EA1B1800EF8E7E /* mergef.h in Headers */,
+				B55AC3CD16EA1B1800EF8E7E /* quatd.h in Headers */,
+				B55AC3CE16EA1B1800EF8E7E /* quatf.h in Headers */,
+				B55AC3CF16EA1B1800EF8E7E /* quath.h in Headers */,
+				B55AC3D016EA1B1800EF8E7E /* random_math.h in Headers */,
+				B55AC3D116EA1B1800EF8E7E /* random_math_inl.h in Headers */,
+				B55AC3D216EA1B1800EF8E7E /* simd_defs.h in Headers */,
+				B55AC3D316EA1B1800EF8E7E /* transform2d.h in Headers */,
+				B55AC3D416EA1B1800EF8E7E /* transform2f.h in Headers */,
+				B55AC3D516EA1B1800EF8E7E /* transform3d.h in Headers */,
+				B55AC3D616EA1B1800EF8E7E /* transform3f.h in Headers */,
+				B55AC3D716EA1B1800EF8E7E /* unitransform3d.h in Headers */,
+				B55AC3D816EA1B1800EF8E7E /* unitransform3f.h in Headers */,
+				B55AC3D916EA1B1800EF8E7E /* vec2d.h in Headers */,
+				B55AC3DA16EA1B1800EF8E7E /* vec2f.h in Headers */,
+				B55AC3DB16EA1B1800EF8E7E /* vec2h.h in Headers */,
+				B55AC3DC16EA1B1800EF8E7E /* vec3d.h in Headers */,
+				B55AC3DD16EA1B1800EF8E7E /* vec3f.h in Headers */,
+				B55AC3DE16EA1B1800EF8E7E /* vec3h.h in Headers */,
+				B55AC3DF16EA1B1800EF8E7E /* vec4d.h in Headers */,
+				B55AC3E016EA1B1800EF8E7E /* vec4f.h in Headers */,
+				B55AC3E116EA1B1800EF8E7E /* vec4h.h in Headers */,
+				B55AC3E216EA1B1800EF8E7E /* base_defs.h in Headers */,
+				B55AC3E316EA1B1800EF8E7E /* common_defs.h in Headers */,
+				B55AC3E416EA1B1800EF8E7E /* compiler_defs.h in Headers */,
+				B55AC3E516EA1B1800EF8E7E /* error_defs.h in Headers */,
+				B55AC3E616EA1B1800EF8E7E /* forge_defs.h in Headers */,
+				B55AC3E716EA1B1800EF8E7E /* int_type_defs.h in Headers */,
+				B55AC3E816EA1B1800EF8E7E /* namespace_defs.h in Headers */,
+				B55AC3E916EA1B1800EF8E7E /* platform_header_defs.h in Headers */,
+				B55AC3EA16EA1B1800EF8E7E /* string_defs.h in Headers */,
+				B55AC3EB16EA1B1800EF8E7E /* user_configurable_defs.h in Headers */,
+				B55AC3EC16EA1B1800EF8E7E /* version.h in Headers */,
+				B55AC3ED16EA1B1800EF8E7E /* windows_headers.h in Headers */,
+				B55AC3EE16EA1B1800EF8E7E /* forge_precompiled_ios.h in Headers */,
+				B55AC3EF16EA1B1800EF8E7E /* forge_precompiled_osx.h in Headers */,
+				B55AC3F016EA1B1800EF8E7E /* forge_precompiled_ps3.h in Headers */,
+				B55AC3F116EA1B1800EF8E7E /* forge_precompiled_psvita.h in Headers */,
+				B55AC3F216EA1B1800EF8E7E /* forge_precompiled_win.h in Headers */,
+				B55AC3F316EA1B1800EF8E7E /* forge_targetver.h in Headers */,
+				B55AC3F416EA1B1800EF8E7E /* ftl_common.h in Headers */,
+				B55AC3F516EA1B1800EF8E7E /* ftl_common_inl.h in Headers */,
+				B55AC3F616EA1B1800EF8E7E /* ftl_defs.h in Headers */,
+				B55AC3F716EA1B1800EF8E7E /* ftl_defs_inl.h in Headers */,
+				B55AC3F816EA1B1800EF8E7E /* reflect.h in Headers */,
+				B55AC3F916EA1B1800EF8E7E /* stb.h in Headers */,
+				B55AC3FA16EA1B1800EF8E7E /* random.h in Headers */,
+				B55AC3FB16EA1B1800EF8E7E /* random_inl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +925,23 @@
 			name = mathLib;
 			productName = mathLib;
 			productReference = B55AC1BF16E9E5F400EF8E7E /* libmathLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B55AC37F16EA1B1800EF8E7E /* mathLibNoSimd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55AC3FC16EA1B1800EF8E7E /* Build configuration list for PBXNativeTarget "mathLibNoSimd" */;
+			buildPhases = (
+				B55AC38016EA1B1800EF8E7E /* Sources */,
+				B55AC3B116EA1B1800EF8E7E /* Frameworks */,
+				B55AC3B216EA1B1800EF8E7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mathLibNoSimd;
+			productName = mathLib;
+			productReference = B55AC3FF16EA1B1800EF8E7E /* libmathLibNoSimd.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -624,6 +966,7 @@
 			projectRoot = "";
 			targets = (
 				B55AC1BE16E9E5F400EF8E7E /* mathLib */,
+				B55AC37F16EA1B1800EF8E7E /* mathLibNoSimd */,
 			);
 		};
 /* End PBXProject section */
@@ -678,6 +1021,64 @@
 				B55AC2AD16E9EA2800EF8E7E /* forge_precompiled_ps3.cpp in Sources */,
 				B55AC2AF16E9EA2800EF8E7E /* forge_precompiled_psvita.cpp in Sources */,
 				B55AC2B116E9EA2800EF8E7E /* forge_precompiled_win.cpp in Sources */,
+				B55AC35716E9FF1300EF8E7E /* ftl_common_ios.cpp in Sources */,
+				B55AC35816E9FF1300EF8E7E /* ftl_common_osx.cpp in Sources */,
+				B55AC35916E9FF1300EF8E7E /* ftl_common.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55AC38016EA1B1800EF8E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55AC38116EA1B1800EF8E7E /* complexd.cpp in Sources */,
+				B55AC38216EA1B1800EF8E7E /* complexf.cpp in Sources */,
+				B55AC38316EA1B1800EF8E7E /* complexh.cpp in Sources */,
+				B55AC38416EA1B1800EF8E7E /* geometryd.cpp in Sources */,
+				B55AC38516EA1B1800EF8E7E /* geometryf.cpp in Sources */,
+				B55AC38616EA1B1800EF8E7E /* intersectd.cpp in Sources */,
+				B55AC38716EA1B1800EF8E7E /* intersectf.cpp in Sources */,
+				B55AC38816EA1B1800EF8E7E /* mat22d.cpp in Sources */,
+				B55AC38916EA1B1800EF8E7E /* mat22f.cpp in Sources */,
+				B55AC38A16EA1B1800EF8E7E /* mat22h.cpp in Sources */,
+				B55AC38B16EA1B1800EF8E7E /* mat33d.cpp in Sources */,
+				B55AC38C16EA1B1800EF8E7E /* mat33f.cpp in Sources */,
+				B55AC38D16EA1B1800EF8E7E /* mat33h.cpp in Sources */,
+				B55AC38E16EA1B1800EF8E7E /* mat43d.cpp in Sources */,
+				B55AC38F16EA1B1800EF8E7E /* mat43f.cpp in Sources */,
+				B55AC39016EA1B1800EF8E7E /* mat43h.cpp in Sources */,
+				B55AC39116EA1B1800EF8E7E /* mat44d.cpp in Sources */,
+				B55AC39216EA1B1800EF8E7E /* mat44f.cpp in Sources */,
+				B55AC39316EA1B1800EF8E7E /* mat44h.cpp in Sources */,
+				B55AC39416EA1B1800EF8E7E /* mathd.cpp in Sources */,
+				B55AC39516EA1B1800EF8E7E /* mathf.cpp in Sources */,
+				B55AC39616EA1B1800EF8E7E /* merged.cpp in Sources */,
+				B55AC39716EA1B1800EF8E7E /* mergef.cpp in Sources */,
+				B55AC39816EA1B1800EF8E7E /* quatd.cpp in Sources */,
+				B55AC39916EA1B1800EF8E7E /* quatf.cpp in Sources */,
+				B55AC39A16EA1B1800EF8E7E /* quath.cpp in Sources */,
+				B55AC39B16EA1B1800EF8E7E /* transform2d.cpp in Sources */,
+				B55AC39C16EA1B1800EF8E7E /* transform2f.cpp in Sources */,
+				B55AC39D16EA1B1800EF8E7E /* transform3d.cpp in Sources */,
+				B55AC39E16EA1B1800EF8E7E /* transform3f.cpp in Sources */,
+				B55AC39F16EA1B1800EF8E7E /* unitransform3d.cpp in Sources */,
+				B55AC3A016EA1B1800EF8E7E /* unitransform3f.cpp in Sources */,
+				B55AC3A116EA1B1800EF8E7E /* vec2d.cpp in Sources */,
+				B55AC3A216EA1B1800EF8E7E /* vec2f.cpp in Sources */,
+				B55AC3A316EA1B1800EF8E7E /* vec2h.cpp in Sources */,
+				B55AC3A416EA1B1800EF8E7E /* vec3d.cpp in Sources */,
+				B55AC3A516EA1B1800EF8E7E /* vec3f.cpp in Sources */,
+				B55AC3A616EA1B1800EF8E7E /* vec3h.cpp in Sources */,
+				B55AC3A716EA1B1800EF8E7E /* vec4d.cpp in Sources */,
+				B55AC3A816EA1B1800EF8E7E /* vec4f.cpp in Sources */,
+				B55AC3A916EA1B1800EF8E7E /* vec4h.cpp in Sources */,
+				B55AC3AA16EA1B1800EF8E7E /* version.cpp in Sources */,
+				B55AC3AB16EA1B1800EF8E7E /* forge_precompiled_ps3.cpp in Sources */,
+				B55AC3AC16EA1B1800EF8E7E /* forge_precompiled_psvita.cpp in Sources */,
+				B55AC3AD16EA1B1800EF8E7E /* forge_precompiled_win.cpp in Sources */,
+				B55AC3AE16EA1B1800EF8E7E /* ftl_common_ios.cpp in Sources */,
+				B55AC3AF16EA1B1800EF8E7E /* ftl_common_osx.cpp in Sources */,
+				B55AC3B016EA1B1800EF8E7E /* ftl_common.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +1119,10 @@
 					./modules/base/src_osx/,
 					./modules/math/include/,
 					./modules/base/include/,
+					./modules/ftl/src_osx/,
+					./modules/ftl/src/,
+					./modules/ftl/include/,
+					./modules/algorithm/include/,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -757,6 +1162,10 @@
 					./modules/base/src_osx/,
 					./modules/math/include/,
 					./modules/base/include/,
+					./modules/ftl/src_osx/,
+					./modules/ftl/src/,
+					./modules/ftl/include/,
+					./modules/algorithm/include/,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
@@ -779,6 +1188,24 @@
 			};
 			name = Release;
 		};
+		B55AC3FD16EA1B1800EF8E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "FDK_OS_OSX=1";
+				PRODUCT_NAME = mathLibNoSimd;
+			};
+			name = Debug;
+		};
+		B55AC3FE16EA1B1800EF8E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = "FDK_OS_OSX=1";
+				PRODUCT_NAME = mathLibNoSimd;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -798,6 +1225,16 @@
 				B55AC1C516E9E5F400EF8E7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55AC3FC16EA1B1800EF8E7E /* Build configuration list for PBXNativeTarget "mathLibNoSimd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55AC3FD16EA1B1800EF8E7E /* Debug */,
+				B55AC3FE16EA1B1800EF8E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
